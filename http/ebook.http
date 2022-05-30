@@ -1,0 +1,17 @@
+GET http://localhost:8880/ebook/list?page=1&size=1001
+
+###
+
+POST http://localhost:8880/ebook/save
+Content-Type: application/json
+
+{}
+
+###
+
+POST http://localhost:80/api/item
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+
+###
